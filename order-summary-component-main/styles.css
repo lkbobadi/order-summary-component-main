@@ -1,7 +1,8 @@
 body {
-  background-color: hsl(225, 100%, 98%);
+  background-color: hsl(225, 100%, 94%);
   background-image: url("./images/pattern-background-desktop.svg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
   text-align: center;
   font-family: "Red Hat Display", sans-serif;
 }
@@ -114,14 +115,19 @@ p {
     background-image: url("./images/pattern-background-mobile.svg");
   }
 
+  .payment-plan {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .summary-page {
-    width: 50%;
+    width: 45%;
     margin: 5% auto;
   }
 }
 @media (min-width: 768px) {
   .summary-page {
-    width: 40%;
+    width: 38%;
     margin: 5% auto;
   }
 }
@@ -129,5 +135,10 @@ p {
   .summary-page {
     width: 25%;
     margin: 5% auto;
+  }
+
+  .payment-plan {
+    flex-direction: row;
+    text-align: center;
   }
 }
