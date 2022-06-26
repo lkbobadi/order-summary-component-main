@@ -1,5 +1,4 @@
 body {
-  background-color: hsl(225, 100%, 94%);
   background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: 100% 50%;
@@ -111,7 +110,7 @@ p {
 
 @media (min-width: 470px) {
   body {
-    background-color: hsl(225, 100%, 98%);
+    background-color: hsl(225, 100%, 94%);
     background-image: url("./images/pattern-background-mobile.svg");
   }
 
